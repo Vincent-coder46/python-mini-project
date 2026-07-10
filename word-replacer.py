@@ -1,0 +1,15 @@
+statement = input("Enter a statement or word: ")
+old_word = input("Enter an old_word: ")
+new_word = input("Enter a new_word: ")
+word_of_faith = input("Enter a word_of_faith: ")
+character = input("Enter a character: ")
+
+new_character = input("Enter a new_character: ")
+print("\n=======================================")
+print("              WORD REPLACER")
+print("========================================")
+print(f"\nUpdated sentence: {statement.replace(old_word,new_word)}")
+print(f"Word_of_Faith: {word_of_faith.replace(character,new_character)}")
+print("\n========================================")
+
+print("SO SHALL IT BE! BY GOD'S GRACE")
