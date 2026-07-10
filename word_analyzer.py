@@ -1,0 +1,16 @@
+sentence = input("Enter a statement: ")
+word = input("Enter a word: ")
+word = "Python programming"
+print("\n===================================================")
+print("           WORD ANALYZER")
+print("====================================================")
+print(f"Actual text: {sentence}")
+print(f"Uppercase: {sentence.upper()}")
+print(f"Lowercase: {sentence.lower()}")
+print(f"Titlecase: {sentence.title()}")
+print(f"Firstletter: {word[0]}")
+print(f"Lastletter: {word[17]}")
+print(f"Characters: {len(sentence)}")
+print("======================================================")
+print("\nThank you for using Word Analyzer!")
+
