@@ -1,0 +1,10 @@
+# Full_Name = input("Enter your name: ")
+first_name = input("Enter your first_name: ")
+middle_name = input("Enter your middle_name: ")
+last_name = input("Enter your last_name: ")
+print("\n==-==-==-==-==-==-==-==-==-=-==-=-==-==-==-==-==-==")
+print("           FULL_NAME FORMATTER")
+print("==-==-==-==-==-==-==-==-==-==-==-=-==-=-==-==-==-==")
+
+print("FULL NAME: My name is {} {} {}".format(first_name, middle_name, last_name))
+print("\nThis is a vivid way to write YOUR NAME🤏")
