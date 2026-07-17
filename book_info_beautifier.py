@@ -1,0 +1,131 @@
+    #EX-9
+book_info9 = (
+    "charles dickens ; a tale of two cities ; 1859 ; ISN 978-0-14-143960-0 ; 544 ; 2299"
+)
+book_info9 = (book_info9.split(";"))
+print(book_info9)
+author = book_info9[0].strip().title()
+title = book_info9[1].strip().title()
+year_published = book_info9[2].strip()
+isbn = book_info9[3].strip().replace("ISN","ISBN")
+pages = book_info9[4].strip()
+cost = float(book_info9[5].strip())
+print("\n=============Ex-9=============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-8
+book_info8 = "leo tolstoy ; war and peace ; 1869 ; ISN 978-0-14-044793-4 ; 1225 ; 4999"
+book_info8 = (book_info8.split(";"))
+author = book_info8[0].strip().title()
+title = book_info8[1].strip().title()
+year_published = book_info8[2].strip()
+isbn = book_info8[3].strip().replace("ISN","ISBN")
+pages = book_info8[4].strip()
+cost = float(book_info8[5].strip())
+print("\n=============Ex-8==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-7
+book_info7 = "markuz zusak ; pridee and prejudice ; 1813 ; ISN 978-0-19-953556-9 ; 279 ; 1820.33434"
+book_info7 = (book_info7.split(";"))
+author = book_info7[0].strip().title()
+title = book_info7[1].strip().title()
+year_published = book_info7[2].strip()
+isbn = book_info7[3].strip().replace("ISN","ISBN")
+pages = book_info7[4].strip()
+cost = float(book_info7[5].strip())
+print("\n=============Ex-7==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-6
+book_info6 = (
+    "f.scott fitzgerald ; the great gatsby ; 1925 ; ISN 978-0-7432-7356-5 ; 180 ; 2799"
+)
+book_info6 = (book_info6.split(";"))
+author = book_info6[0].strip().title()
+title = book_info6[1].strip().title()
+year_published = book_info6[2].strip()
+isbn = book_info6[3].strip().replace("ISN","ISBN")
+pages = book_info6[4].strip()
+cost = float(book_info6[5].strip())
+print("\n=============Ex-6==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-5
+book_info5 = (
+    "j.r.r. tolkien ; the hobbit ; 1937 ; ISN 978-0-618-0021-3 ; 310 ; 2530.2134"
+)
+book_info5 = (book_info5.split(";"))
+author = book_info5[0].strip().title()
+title = book_info5[1].strip().title()
+year_published = book_info5[2].strip()
+isbn = book_info5[3].strip().replace("ISN","ISBN")
+pages = book_info5[4].strip()
+cost = float(book_info5[5].strip())
+print("\n=============Ex-5==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-4
+book_info4 = (
+    "mary shelley ; frankenstein ; 1818 ; ISN 978-0-14-143947-1 ; 280 ; 2096.78"
+)
+book_info4 = (book_info4.split(";"))
+author = book_info4[0].strip().title()
+title = book_info4[1].strip().title()
+year_published = book_info4[2].strip()
+isbn = book_info4[3].strip().replace("ISN","ISBN")
+pages = book_info4[4].strip()
+cost = float(book_info4[5].strip())
+print("\n=============Ex-4==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-3
+book_info3 = "J.K. rowling ; harry potter and the sorcerer's stone ; 1997 ; ISN 978-590-35340-3 ; 309 ; 3499.997"
+book_info3 = (book_info3.split(";"))
+author = book_info3[0].strip().title()
+title = book_info3[1].strip().title()
+year_published = book_info3[2].strip()
+isbn = book_info3[3].strip().replace("ISN","ISBN")
+pages = book_info3[4].strip()
+cost = float(book_info3[5].strip())
+print("\n=============Ex-3==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-2
+book_info2 = "george orwell ; 1984 ; 1949 ; ISN 978-0-452-28423-4 ; 328 ; 1999"
+book_info2 = (book_info2.split(";"))
+author = book_info2[0].strip().title()
+title = book_info2[1].strip().title()
+year_published = book_info2[2].strip()
+isbn = book_info2[3].strip().replace("ISN","ISBN")
+pages = book_info2[4].strip()
+cost = float(book_info2[5].strip())
+print("\n=============Ex-2==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX-1
+book_info1 = "harper lee ; to kill a mockingbird ; 1960 ; ISN 978-0-06-112008-4 ; 324 ; 2999.4789"
+book_info1 = (book_info1.split(";"))
+author = book_info1[0].strip().title()
+title = book_info1[1].strip().title()
+year_published = book_info1[2].strip()
+isbn = book_info1[3].strip().replace("ISN","ISBN")
+pages = book_info1[4].strip()
+cost = float(book_info1[5].strip())
+print("\n=============Ex-1==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
+    #EX
+book_info = (
+    "john doe ; the art of programming ; 2020 ; isbn 978-3-16-148410-0 ; 350 ; 2500"
+)
+book_info = (book_info.split(";"))
+author = book_info[0].strip().title()
+title = book_info[1].strip().title()
+year_published = book_info[2].strip()
+isbn = book_info[3].strip().replace("ISN","ISBN")
+pages = book_info[4].strip()
+cost = float(book_info[5].strip())
+print("\n=============Ex==============")
+print(f"formatted_book_info:The book {title} was written by {author} and published in {year_published}.\nIt has {pages} pages and {isbn} and costs #{cost}")
+print("==================================")
