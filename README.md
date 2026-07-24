@@ -10,6 +10,7 @@ A collection of small Python projects I've built while learning. Each one focuse
 - [Full Name Formatter](./README_project4.md) — Takes a first, middle, and last name and prints them out in a neatly formatted way.
 - [Book Info Formatter](./README_project5.md) — Cleans up messy, semicolon-separated book data and formats it into a readable sentence.
 - [Simple Text Formatter](./README_project6.md) — Practices capitalizing and trimming whitespace off different strings to produce clean, properly punctuated output.
+- [Conditional Statements Practice](./README_project7.md) — 15 small exercises covering if/elif/else logic, comparison operators, and boolean conditions.
 
 *(More projects coming soon — this list gets updated as I go!)*
 
